@@ -1,0 +1,114 @@
+footer {
+  .pre-footer {
+    background-color: $blue-text;
+    h4 {
+      font-weight: 300;
+    }
+  }
+
+  .footer {
+    background-color: $white;
+    color: $blue-text;
+    &-menu {
+      text-transform: uppercase;
+      li {
+        padding-right: 2em;
+      }
+    }
+
+    .copyright-container {
+      .copyright-image {
+        float: left;
+        padding-right: 1em;
+        padding-top: .2em;
+      }
+      @media(max-width: 768px) {
+        display: flex;
+        justify-content: center;
+      }
+    }    
+
+    .footer-menu ul {
+      @media(max-width: 768px) {
+        justify-content: center;
+      }
+    }
+
+    .path {
+      text-align: right;
+      @media(max-width: 768px) {
+        text-align: center;
+      }
+    }
+
+    .social {
+      justify-content: flex-end;
+      @media(max-width: 768px) {
+        justify-content: center;
+        padding: 0;
+      }
+    }
+  }
+
+  .up {
+    background-color: $white;
+    padding: 0 !important;
+    .rectangle {
+      height: 50px;
+      width: 55px;
+      padding: 1.2em;
+      background-color: $blue-text;
+      transform: rotate(-90deg);
+      display: block;
+      margin-left: auto;
+      margin-right: 2em;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+  // .youtube {
+  //   height: 42px;
+  //   width: 42px;
+  //   color: red;
+  //   font-family: "Font Awesome 5 Brands";
+  //   font-size: 40px;
+  //   letter-spacing: 0;
+  //   line-height: 40px;
+  // }
+
+  // .g-plus-icon {
+  //   height: 42px;
+  //   width: 42px;
+  //   color: #DAE6F4;
+  //   font-family: "Font Awesome 5 Brands";
+  //   font-size: 40px;
+  //   letter-spacing: 0;
+  //   line-height: 40px;
+  // }
+
+  // .fb-icon {
+  //   height: 42px;
+  //   width: 42px;
+  //   color: #DAE6F4;
+  //   font-family: "Font Awesome 5 Brands";
+  //   font-size: 40px;
+  //   letter-spacing: 0;
+  //   line-height: 40px;
+  // }
+
+  // .tw-icon {
+  //   height: 42px;
+  //   width: 42px;
+  //   color: #DAE6F4;
+  //   font-family: "Font Awesome 5 Brands";
+  //   font-size: 40px;
+  //   letter-spacing: 0;
+  //   line-height: 40px;
+  // }
+
+  // .fa-cog {
+  //   color: black;
+  // }

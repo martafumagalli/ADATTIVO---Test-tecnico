@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?lut5ur');
+  src:  url('/fonts/icomoon.eot?lut5ur#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?lut5ur') format('truetype'),
+    url('/fonts/icomoon.woff?lut5ur') format('woff'),
+    url('/fonts/icomoon.svg?lut5ur#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 2.5em;
+  color: #DAE6F4;
+  margin: 5px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  text-decoration: none;
+  color: #5B8BC2;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none !important;
+}
+
+
+.icon-twitter-square:before {
+  content: "\e900";
+}
+.icon-google-plus-square:before {
+  content: "\e901";
+}
+.icon-youtube-square:before {
+  content: "\e902";
+}
+.icon-facebook-square:before {
+  content: "\e903";
+}

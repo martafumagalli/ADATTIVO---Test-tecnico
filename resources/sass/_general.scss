@@ -1,0 +1,72 @@
+section {
+  padding: 2em 0 !important;
+}
+
+ul {
+list-style: none;
+padding-left: 2em;
+margin: 0;
+}
+
+.body {
+  background: $blue-light;
+  background: url('/images/bg/bg-light.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: $white;
+}
+
+.section-title {
+  font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
+  font-weight: 600;
+  line-height: 1;
+}
+
+.text-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: $white;
+  span.line{
+    width: 15px;
+    height: 60px;
+    border-left: 3px solid $blue-text;
+    position: absolute;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background-color: $white;
+  text-decoration: none;
+  color: $blue-text;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1em 3em;
+  border-radius: 4em;
+  border: none;
+  transition:
+    transform 250ms ease-in-out,
+    opacity 250ms linear;
+  &:hover, &:focus {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+    color: $blue-text;
+  }
+}
+
+.shadow {
+  box-shadow: 0 4px 18px $gray;
+}
+
+.gradient {
+  background: rgb(22,80,144);
+  background: linear-gradient(130deg, rgba(22,80,144,1) 0%, rgba(138,192,254,1) 81%);
+  color: $white;
+  &:hover, &:focus {
+    color: $white;
+  }
+}
+

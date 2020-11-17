@@ -1,0 +1,15 @@
+.section-4 {
+  h3 {
+    font-weight: 100;
+  }
+  button {
+    color: $blue-text;
+    background-color: $white;
+  }
+  ul {
+    padding: 0;
+    .title {
+      font-size: clamp(0.9rem, calc(1vw + 1rem), 2.2rem);
+    }
+  }
+}

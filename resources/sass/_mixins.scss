@@ -1,0 +1,13 @@
+@mixin blue-section {
+  color: $blue-text;
+  background-color: $white; 
+}
+
+@mixin blue-vertical {
+  .text-vertical {
+    color: $gray;
+    span {
+      color: $blue-text;
+    }
+  }
+}

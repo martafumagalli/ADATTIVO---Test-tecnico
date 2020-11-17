@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import 'fonts';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom SCSS
+@import 'general';
+@import 'mixins';
+@import 'header';
+@import 'section-1';
+@import 'section-2';
+@import 'section-3';
+@import 'section-4';
+@import 'footer';

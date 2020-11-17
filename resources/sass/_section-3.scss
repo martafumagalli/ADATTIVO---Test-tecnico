@@ -1,0 +1,97 @@
+.section-3 {
+  @include blue-section;
+  @include blue-vertical;
+  
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .8rem;
+    a {
+      color: $blue-text;
+    }
+  
+    ul li {
+      padding-right: 1em;
+
+        span {
+          font-weight: 700;
+        }
+        &::before {
+          content: "\2022";
+          color: $gray;
+          font-weight: 700;
+          display: inline-block; 
+          width: 1em;
+          margin-left: -1em;
+          font-size: 1.6em;
+        }
+    }
+     
+    .open-link {
+      text-transform: uppercase;
+      margin-top: 3em;
+    }
+
+    .img-model {
+      @media (min-width: 768px) {
+        height: 11em;
+      }
+     
+      @media (min-width: 992px) {
+        height: 12em;
+      }
+
+      @media (min-width: 1100px) {
+        height: 15em;
+      }
+
+      @media (min-width: 1200px) {
+        height: 18em;
+      }      
+      img {
+        @media (max-width: 768px) {
+          max-width: 12em;
+        }
+      }
+    }
+
+    .model-b img {
+      padding-top: 2em;
+
+      @media (min-width: 768px) {
+        padding-top: 2em;
+      }
+      
+      @media (min-width: 992px) {
+        padding-top: 3em;
+      }
+
+      @media (min-width: 1100px) {
+        padding-top: 4em;
+      }
+
+      @media (min-width: 1200px) {
+        padding-top: 5em;
+      }  
+    }
+  }
+
+  .card-blue {
+    color: $white;
+    background: rgb(53,108,172);
+    background: linear-gradient(180deg, rgba(53,108,172,1) 0%, rgba(109,163,227,1) 100%);
+    a {
+      color: $white;
+    }
+  }
+
+  .card-body {
+    padding: 1em;
+  }
+}
