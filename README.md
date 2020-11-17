@@ -3,7 +3,7 @@
 Test tecnico per Adattivo - Laravel + React
 
 ## Live Version
-Application is live [here](https://pip.pypa.io/en/stable/).
+Application is live [here](https://adattivo-test-marta.herokuapp.com).
 
 ## How to run the application
 
@@ -29,17 +29,17 @@ composer install
 cp .env.example .env
 ```
 
+
 5 - In the .env file update the following values as desired:
 
 APP_NAME
 APP_ENV
 APP_KEY
 APP_DEBUG
-APP_URL
 
-5b - To create a new APP_KEY run :
+To create a new APP_KEY run :
 ```bash
-php artisan key:generate
+php artisan key:generate --show
 ```
 
 6 - Run the application: 
